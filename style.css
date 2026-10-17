@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #1d1d1d;
+    color: aliceblue;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.app {
+    width: 100%;
+    max-width: 600px;
+    background: #272626;
+    padding: 30px;
+    margin: 50px auto 30px;
+    border-radius: 20px;
+    border: 2px solid rgb(31, 175, 183);
+
+}
+
+h1 {
+    margin: 10px 10px 10px 0px;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+
+#answer-btn {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px 0px;
+}
+
+.btn {
+    border: 2px solid white;
+    border-radius: 10px;
+    outline: none;
+    margin: 15px 10px 10px 0px;
+    padding: 15px;
+    background: transparent;
+    text-align: left;
+    color: white;
+}
+
+.btn:hover:not([disabled]){
+    background: #3f3d3d;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn {
+    outline: none;
+    background: #024f01;
+    color: azure;
+    padding: 10px;
+    width: 150px;
+
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.correct{
+    background: #9aeabc;
+}
+
+.incorrect{
+    background: #ff9393;
+}
