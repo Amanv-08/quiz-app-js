@@ -17,7 +17,7 @@ body {
 
 body {
     background-color: #1d1d1d;
-    color: aliceblue;
+    color: #e2e4e3;
 }
 
 .container {
@@ -38,25 +38,26 @@ body {
 
 h1 {
     margin: 10px 10px 10px 0px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #ced4d1;
     padding-bottom: 15px;
 }
 
 #answer-btn {
     display: flex;
     flex-direction: column;
-    margin: 20px 10px 10px 0px;
+    margin: 10px 10px 10px 0px;
 }
 
 .btn {
-    border: 2px solid white;
+    border: 2px solid #ced4d1;
     border-radius: 10px;
     outline: none;
     margin: 15px 10px 10px 0px;
     padding: 15px;
     background: transparent;
     text-align: left;
-    color: white;
+    color: #e2e4e3;
+    font-size: 18px;
 }
 
 .btn:hover:not([disabled]){
@@ -85,8 +86,10 @@ h1 {
 
 .correct{
     background: #9aeabc;
+    color: #272626;
 }
 
 .incorrect{
     background: #ff9393;
+    color: #272626;
 }
